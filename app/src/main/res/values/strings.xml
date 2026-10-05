@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MVL</string>
+
+    <!-- Slots / steps -->
+    <string name="slot_a">A</string>
+    <string name="slot_b">B</string>
+    <string name="action_set_a">Set A</string>
+    <string name="action_set_b">Set B</string>
+    <string name="action_book">Book</string>
+    <string name="action_confirm">V</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_dismiss">Dismiss</string>
+
+    <!-- Labels -->
+    <string name="label_aqi">aqi</string>
+    <string name="label_nickname">nickname</string>
+    <string name="label_price">price</string>
+    <string name="label_total_count">Total Count</string>
+    <string name="label_total_price">Total Price</string>
+    <string name="aqi_unknown">-</string>
+    <string name="value_none">-</string>
+    <string name="nickname_hint">nickname</string>
+    <string name="history_empty">No bookings this month</string>
+    <string name="picker_empty">No saved places yet. Set A or B on the map first.</string>
+
+    <!-- Accessibility -->
+    <string name="cd_loading">Loading</string>
+    <string name="cd_map_pin">Selected location</string>
+
+    <!-- Errors -->
+    <string name="error_network">Network error. Check your connection and try again.</string>
+    <string name="error_server">The server could not process the request. Please try again.</string>
+    <string name="error_missing_key">%1$s is missing. Add it to local.properties and rebuild.</string>
+    <string name="error_nickname_too_long">Nickname is too long (max %1$d).</string>
+    <string name="error_book_not_found">This booking is no longer available.</string>
+    <string name="error_place_missing">This location is no longer selected. Go back and choose it again.</string>
+    <string name="error_selection_incomplete">Set both A and B before booking.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_location_unavailable">Current location unavailable. Move the map to choose a place.</string>
+</resources>

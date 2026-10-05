@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A → B: a start dot, a route, and the map pin (same shape as ic_map_pin), inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Route from A to the pin tip -->
+    <path
+        android:pathData="M38,71 C46,76 54,73 60,66"
+        android:strokeColor="#FF111111"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- A: start point -->
+    <path
+        android:fillColor="#FF111111"
+        android:pathData="M38,71m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <!-- B: map pin (24dp pin scaled 1.6x, tip at 62,64) -->
+    <group
+        android:translateX="42.8"
+        android:translateY="28.8"
+        android:scaleX="1.6"
+        android:scaleY="1.6">
+        <path
+            android:fillColor="#FF111111"
+            android:pathData="M12,2C8.13,2 5,5.13 5,9c0,5.25 7,13 7,13s7,-7.75 7,-13c0,-3.87 -3.13,-7 -7,-7zM12,11.5c-1.38,0 -2.5,-1.12 -2.5,-2.5s1.12,-2.5 2.5,-2.5 2.5,1.12 2.5,2.5 -1.12,2.5 -2.5,2.5z" />
+    </group>
+</vector>

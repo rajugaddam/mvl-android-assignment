@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- API 24–25 round launcher icon; API 26+ uses mipmap-anydpi-v26. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFC700" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_launcher_foreground"
+        android:left="-12dp"
+        android:top="-12dp"
+        android:right="-12dp"
+        android:bottom="-12dp" />
+</layer-list>
